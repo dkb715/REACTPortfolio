@@ -31,20 +31,19 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/Didier-D-crypto/Project-2-Full-Stack-App/raw/master/public/img/eventappend.gif) center / cover",
+                  "https://dkb715.github.io/MyResume/img/burger.png",
               }}
             >
-              Trip Trips
+              Philly Auto Imporium
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            Looking for the best cars for sale around Philly? Come on over!
             </CardText>
             <CardActions border>
               <Button>
                 <a
                   style={{ textDecoration: "none" }}
-                  href="https://github.com/Didier-D-crypto/Project-2-Full-Stack-App"
+                  href="https://github.com/danachen99/philly-car-emporium"
                 >
                   {" "}
                   GitHub
@@ -53,7 +52,7 @@ class Projects extends Component {
               <Button>
                 <a
                   style={{ textDecoration: "none" }}
-                  href="https://grouptriptips.herokuapp.com/"
+                  href="https://philly-car-emporium.herokuapp.com/"
                 >
                   Live Demo
                 </a>
@@ -364,10 +363,10 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Full-Stack Applications</Tab>
-          <Tab>Frontend Javascript</Tab>
+          <Tab>Applications</Tab>
+          {/* <Tab>Frontend Javascript</Tab>
           <Tab>MongoDB</Tab>
-          <Tab>React</Tab>
+          <Tab>React</Tab> */}
         </Tabs>
 
         <Grid>
