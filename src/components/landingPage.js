@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl";
 import Img from "react-image";
 // import resume from '../img/pdf/Dioris-Dev-Resume.pdf';
 // import { Footer, FooterLinkList, FooterSection } from "react-mdl";
-import avatarImg from "../img/Dioris1_0917.jpg";
+import avatarImg from "../img/DKB.png";
 
 class Landing extends Component {
   render() {
@@ -23,25 +23,26 @@ class Landing extends Component {
               <hr />
               <p>
                 {" "}
-                xxxHTML/CSS | Bootstrap | Javascript | NodeJS | Express | React |
-                MongoDB
+                {/* Intermediate HTML/CSS | Javascript | NodeJS | Express | React | Mongo DB */}
+              
               </p>
               <div className="social-links">
+
                 <a
-                  href="https://www.linkedin.com/in/dioris-diaz-18a053191/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
-                </a>
-                <a
-                  href="https://github.com/Dioris-cpu"
+                  href="https://github.com/dkb715"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-                <a href="https://dioris-cpu.github.io/Homework-9/contactform/PDF_files/DiorisDresume%20(2).pdf" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/donavan-brown-63382910b/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+                <a href="/Users/dkb/Downloads/React_Portfolio-master/src/img/pdf" rel="noopener noreferrer" target="_blank">
                   <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                 </a>
               </div>

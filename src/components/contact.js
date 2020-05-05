@@ -7,36 +7,36 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Dioris Diaz</h2>
+            <h2>Donavan Brown</h2>
             <img
-              src="https://media-exp1.licdn.com/dms/image/C4E03AQH1RFJUCcfd5w/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=AEZWmFtkj7AQOd3spRPGkZTkmX5LcNgVEQo9TyNSlY8"
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQFlfZSYTJ0W1A/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=b95TSHr2DTSkbVidiWvqGPFhBOWsIh-VZJEHS7xyDBc"
               alt="avatar"
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Feel free to get in contact with Dioris. He's a pretty cool guy who's also super friendly.
+              If you have any inquiries, dont hesistate to reach out!
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2>Contact Info</h2>
             <hr />
             <div className="contact-list">
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{ fontSize: "30px", fontFamily: 'Droid Sans' }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />{" "}
-                    (267)-320-7168
+                    (732)-947-9396
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{ fontSize: "33px", fontFamily: 'Droid Sans' }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />{" "}
-                    diorisd@gmail.com
+                    donavankbrown@gmail.com
                   </ListItemContent>
                 </ListItem>
               </List>

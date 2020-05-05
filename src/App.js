@@ -11,14 +11,14 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}}to='/'>Dioris </Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'violet'}}to='/'>Donavan </Link>} scroll>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'Black'}}to='/'>Dioris </Link>} >
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'violet'}}to='/'>DKB </Link>} >
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
@@ -30,7 +30,7 @@ function App() {
             <Main/>
         </Content>
         <Footer className='footer-color' size="mini">
-    <FooterSection type="left" logo="Dioris Diaz">
+    <FooterSection type="left" logo="DKB">
         <FooterLinkList>
             <a>@2020</a>
         </FooterLinkList>
