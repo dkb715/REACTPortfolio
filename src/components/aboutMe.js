@@ -7,7 +7,7 @@ class About extends Component {
       <div className="about-body">
         <Grid about-grid>
           <Cell col={6}>
-            <h1>Dioris Diaz</h1>
+            <h1>Donavan Brown</h1>
             <img
               src="https://avatars2.githubusercontent.com/u/54042807?s=460&u=fdabfdca20910b84d3417f344d385f328b93967d&v=4"
               alt="avatar"
